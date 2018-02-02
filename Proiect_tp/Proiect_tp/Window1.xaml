@@ -1,0 +1,105 @@
+﻿<Window x:Class="Proiect_tp.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proiect_tp"
+        mc:Ignorable="d"
+        Title="Window1" Height="410.052" Width="752.887">
+    <FlowDocument>
+        <Table Name="tabel">
+            <Table.Columns>
+
+                <TableColumn/>
+
+                <TableColumn/>
+
+                <TableColumn/>
+
+                <TableColumn/>
+
+            </Table.Columns>
+
+            <TableRowGroup>
+                <TableRow>
+                    <TableCell>
+                        <Paragraph FontSize="20"></Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph FontSize="20">Temperatura medie</Paragraph>
+                    </TableCell>
+                </TableRow>
+                <TableRow >
+                    <TableCell>
+                        <Paragraph FontSize="20">Luni</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph FontSize="20">10
+                            <Image Source="images/rain.png" Height="19" Width="19"></Image>
+                        </Paragraph>
+                    </TableCell>
+                </TableRow>
+                <TableRow >
+                    <TableCell>
+                        <Paragraph FontSize="20">Marti</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph FontSize="20">14
+                            <Image Source="images/sun.jpg" Height="19" Width="19"></Image>
+                        </Paragraph>
+                    </TableCell>
+                </TableRow>
+                <TableRow >
+                    <TableCell>
+                        <Paragraph FontSize="20">Miercuri</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph FontSize="20">12
+                            <Image Source="images/sun.jpg" Height="19" Width="19"></Image>
+                        </Paragraph>
+                    </TableCell>
+                </TableRow>
+                <TableRow >
+                    <TableCell>
+                        <Paragraph FontSize="20">Joi</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph FontSize="20">8
+                            <Image Source="images/rain.png" Height="19" Width="19"></Image>
+                        </Paragraph>
+                    </TableCell>
+                </TableRow>
+                <TableRow >
+                    <TableCell>
+                        <Paragraph FontSize="20">Vineri</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph FontSize="20">9
+                            <Image Source="images/rain.png" Height="19" Width="19"></Image>
+                        </Paragraph>
+                    </TableCell>
+                </TableRow>
+                <TableRow >
+                    <TableCell>
+                        <Paragraph FontSize="20">Sambata</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph FontSize="20">11
+                            <Image Source="images/clouds.jpg" Height="19" Width="19"></Image>
+                        </Paragraph>
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>
+                        <Paragraph FontSize="20">Duminica</Paragraph>
+                    </TableCell>
+                    <TableCell>
+                        <Paragraph FontSize="20">13
+                            <Image Source="images/sun.jpg" Height="19" Width="19"></Image>
+                        </Paragraph>
+                    </TableCell>
+                </TableRow>
+            </TableRowGroup>
+        </Table>
+    </FlowDocument>
+</Window>
